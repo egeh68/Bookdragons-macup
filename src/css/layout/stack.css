@@ -1,0 +1,15 @@
+.stack {
+	--stack-spacing: 1em;
+
+	&.large-spacing {
+		--stack-spacing: 2em;
+	}
+
+	&.small-spacing {
+		--stack-spacing: 0.5em;
+	}
+
+	& > * + * {
+		margin-block-start: var(--stack-spacing);
+	}
+}

@@ -1,0 +1,43 @@
+.frame {
+  --w: 0;
+  --h: 0;
+
+  &.frame-4-by-3 {
+    --w: 4;
+    --h: 3;
+  }
+
+  &.frame-3-by-2 {
+    --w: 3;
+    --h: 2;
+  }
+
+  &.frame-16-by-9 {
+    --w: 16;
+    --h: 9;
+  }
+
+  &.frame-16-by-10 {
+    --w: 16;
+    --h: 10;
+  }
+
+  &.frame-1-by-1 {
+    --w: 1;
+    --h: 1;
+  }
+
+  aspect-ratio: var(--w) / var(--h);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > img,
+  & > picture,
+  & > video {
+    inline-size: 100%;
+    block-size: 100%;
+    object-fit: cover;
+  }
+}

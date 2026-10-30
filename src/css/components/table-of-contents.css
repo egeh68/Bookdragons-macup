@@ -1,0 +1,10 @@
+.table-of-contents {
+  border: 2px solid var(--watermelon);
+  border-bottom-width: 4px;
+  padding: var(--space-m);
+  font-family: var(--display-font-family);
+
+  & > * + * {
+    margin-block-start: var(--stack-space-m);
+  }
+}

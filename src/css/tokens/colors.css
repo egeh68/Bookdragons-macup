@@ -1,0 +1,30 @@
+:root {
+  --white: #ffffff;
+  --black: #2d2e2f;
+  --light-gray: #edede9;
+
+  --mint: #d8e2dc;
+  --lavender: #f2e9e4;
+  --clover: #b5e48c;
+  --grass: #76c893;
+  --seaweed: #34a0a4;
+  --ocean: #1a759f;
+  --abyss: #184e77;
+  --cherry: #720026;
+  --watermelon: #ce4257;
+
+  --section-yellow: #ffe1a8;
+  --section-blue: #bde0fe;
+  --section-green: #ccd5ae;
+  --section-pink: #fae1dd;
+  --section-brown: #e6ccb2;
+
+	--site-background-color: var(--white);
+	--site-text-color: var(--black);
+  --site-muted-text-color: hsl(from var(--text-color) h s calc(l + 10));
+	--link-text-color: var(--watermelon);
+	--link-text-color-hover: var(--cherry);
+
+  --selection-background-color: var(--ocean);
+  --selection-text-color: var(--white);
+}

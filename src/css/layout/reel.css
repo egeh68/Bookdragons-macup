@@ -1,0 +1,15 @@
+.reel {
+	display: flex;
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding-block: var(--space-s);
+	scrollbar-color: inherit transparent;
+
+	& > * {
+		margin-inline-start: var(--space-s);
+	}
+
+	& > :last-child {
+		margin-inline-end: var(--space-s);
+	}
+}

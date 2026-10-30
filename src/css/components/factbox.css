@@ -1,0 +1,15 @@
+.factbox {
+	padding: var(--space-s);
+	font-size: var(--step-0);
+	background-color: var(--light-gray);
+	border-bottom: 2px solid hsl(from var(--light-gray) h s calc(l - 5));
+
+	& > * + * {
+		margin-block-start: var(--stack-space-m);
+	}
+	
+	& > :is(h2, h3, h4) {
+		font-size: var(--step-1);
+		font-weight: var(--font-weight-bold);
+	}
+}
