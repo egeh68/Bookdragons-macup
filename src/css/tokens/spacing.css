@@ -1,3 +1,5 @@
+/* Clamp tokens er hentet fra generatoren på utopia.fyi */
+
 :root {
   --space-3xs: clamp(0.25rem, 0.1964rem + 0.1786vi, 0.375rem);
   --space-2xs: clamp(0.5rem, 0.3929rem + 0.3571vi, 0.75rem);

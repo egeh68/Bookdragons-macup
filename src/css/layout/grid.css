@@ -1,9 +1,7 @@
-.grid {
-	--gap: var(--space-m);
-	
+.grid {	
 	container-type: inline-size;
 	display: grid;
-	gap: var(--gap);
+	gap: var(--gap, var(--space-m));
 
 	&.large-gap {
 		--gap: var(--space-l);

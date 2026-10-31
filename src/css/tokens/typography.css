@@ -15,6 +15,7 @@
   --font-weight-bold: 600;
   --font-weight-ultra: 800;
 
+  /* Typografiske størrelser er generert på utopia.fyi */
   --step--2: clamp(0.64rem, 0.5029rem + 0.4571vi, 0.96rem);
   --step--1: clamp(0.8rem, 0.6286rem + 0.5714vi, 1.2rem);
   --step-0: clamp(1rem, 0.7857rem + 0.7143vi, 1.5rem);

@@ -11,23 +11,27 @@ import {
 const literata = Literata({
   subsets: ["latin"],
   variable: "--literata",
-  style: ["italic", "normal"]
+  style: ["italic", "normal"],
+  fallback: ["system-ui", "serif"]
 });
 
 const strichpunktSans = Strichpunkt_Sans({
   subsets: ["latin"],
-  variable: "--strichpunkt-sans"
+  variable: "--strichpunkt-sans",
+  fallback: ["system-ui", "sans-serif"]
 });
 
 const googleSansCode = Google_Sans_Code({
   subsets: ["latin"],
-  variable: "--google-sans-code"
+  variable: "--google-sans-code",
+  fallback: ["system-monospace", "monospace"]
 });
 
 const momoSignature = Momo_Signature({
   subsets: ["latin"],
   weight: "400",
-  variable: "--momo-signature"
+  variable: "--momo-signature",
+  fallback: ["system-ui", "script"]
 })
 
 export const metadata = {

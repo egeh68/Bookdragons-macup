@@ -8,7 +8,7 @@
   }
 
   &.box-yellow {
-    --box-background-color: var(--section-yellow);
+    --box-background-color: var(--yellow);
   }
 
   &.box-light-gray {
@@ -16,18 +16,18 @@
   }
 
   &.box-green {
-    --box-background-color: var(--section-green);
+    --box-background-color: var(--light-green);
   }
 
   &.box-blue {
-    --box-background-color: var(--section-blue);
+    --box-background-color: var(--sky-blue);
   }
 
   &.box-pink {
-    --box-background-color: var(--section-pink);
+    --box-background-color: var(--blush);
   }
 
   &.box-brown {
-    --box-background-color: var(--section-brown);
+    --box-background-color: var(--cedar);
   }
 }

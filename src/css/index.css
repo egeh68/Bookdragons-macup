@@ -1,6 +1,6 @@
 /*  Layer stack
 */
-@layer reset, tokens, base, layout, components, utilities, shame;
+@layer reset, tokens, base, layout, components, utilities;
 
 
 /*  Reset
@@ -46,27 +46,16 @@
 @import "layout/reel.css" layer(layout);
 @import "layout/stack.css" layer(layout);
 
-
-/*  Code highlighting
-*/
-@import "external/prosa-code.css" layer(components);
-
 /*  Components
 */
-@import "components/article-header.css" layer(components);
 @import "components/book-card.css" layer(components);
 @import "components/button.css" layer(components);
-@import "components/c2a-link.css" layer(components);
 @import "components/employee-card.css" layer(components);
-@import "components/factbox.css" layer(components);
 @import "components/future-events-list.css" layer(components);
-@import "components/longread.css" layer(components);
 @import "components/recommendation-section.css" layer(components);
 @import "components/section.css" layer(components);
 @import "components/site-footer.css" layer(components);
 @import "components/site-header.css" layer(components);
-@import "components/sticky-section.css" layer(components);
-@import "components/table-of-contents.css" layer(components);
 @import "components/tag.css" layer(components);
 
 /*  Utility styling
@@ -75,7 +64,3 @@
 @import "utilities/padding.css" layer(utilities);
 @import "utilities/sr-only.css" layer(utilities);
 @import "utilities/typography.css" layer(utilities);
-
-/*  Overrides and hotfixes
-*/
-@import "shame.css" layer(shame);
