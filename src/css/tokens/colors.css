@@ -11,8 +11,9 @@
   --ocean: #1a759f;
   --abyss: #184e77;
   --cherry: #720026;
-  --watermelon: #ce4257;
+  --watermelon: #BB3045;
 
+  --section-gray: var(--light-gray);
   --section-yellow: #ffe1a8;
   --section-blue: #bde0fe;
   --section-green: #ccd5ae;

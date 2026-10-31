@@ -5,7 +5,6 @@
 	background-color: var(--site-background-color);
 	color: var(--site-text-color);
 	scrollbar-color: var(--site-text-color) transparent;
-	font-variation-settings: "opsz" 12;
 }
 
 body {

@@ -1,3 +1,7 @@
+p {
+	max-inline-size: 60ch;
+}
+
 abbr {
 	text-decoration-style: dotted;
 	text-decoration-thickness: 0.1em;

@@ -1,5 +1,5 @@
 .cluster {
   display: flex;
   flex-flow: row wrap;
-  gap: var(--space-xs);
+  gap: var(--cluster-spacing, var(--space-xs));
 }

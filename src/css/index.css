@@ -3,11 +3,6 @@
 @layer reset, tokens, base, layout, components, utilities, shame;
 
 
-/*  External imports
-*/
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Strichpunkt+Sans:wght@400..900&display=swap');
-
-
 /*  Reset
 */
 @import "reset.css" layer(reset);
@@ -39,6 +34,7 @@
 
 /*  Layout styling
 */
+@import "layout/box.css" layer(layout);
 @import "layout/breakout-grid.css" layer(layout);
 @import "layout/cluster.css" layer(layout);
 @import "layout/container.css" layer(layout);
@@ -58,13 +54,20 @@
 /*  Components
 */
 @import "components/article-header.css" layer(components);
+@import "components/book-card.css" layer(components);
 @import "components/button.css" layer(components);
 @import "components/c2a-link.css" layer(components);
+@import "components/employee-card.css" layer(components);
 @import "components/factbox.css" layer(components);
+@import "components/future-events-list.css" layer(components);
 @import "components/longread.css" layer(components);
+@import "components/recommendation-section.css" layer(components);
 @import "components/section.css" layer(components);
+@import "components/site-footer.css" layer(components);
+@import "components/site-header.css" layer(components);
 @import "components/sticky-section.css" layer(components);
 @import "components/table-of-contents.css" layer(components);
+@import "components/tag.css" layer(components);
 
 /*  Utility styling
 */

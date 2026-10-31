@@ -1,16 +1,16 @@
 .grid {
-	--gap: var(--space-s);
+	--gap: var(--space-m);
 	
 	container-type: inline-size;
 	display: grid;
 	gap: var(--gap);
 
 	&.large-gap {
-		--gap: var(--space-m);
+		--gap: var(--space-l);
 	}
 
 	&.small-gap {
-		--gap: var(--space-xs);
+		--gap: var(--space-s);
 	}
 
 	&.no-gap {

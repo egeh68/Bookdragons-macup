@@ -2,10 +2,12 @@
   --strichpunkt-sans: "Strichpunkt Sans", sans-serif;
   --literata: "Literata", serif;
   --google-sans-code: "Google Sans Code", monospace;
+  --momo-signature: "Momo Signature", cursive;
 
   --text-font-family: var(--literata), system-ui, serif;
   --display-font-family: var(--strichpunkt-sans), system-ui, sans-serif;
   --mono-font-family: var(--google-sans-code), system-monospace, monospace;
+  --logo-font-family: var(--momo-signature);
   --root-font-size: 16px;
   --root-line-height: 1.5;
 

@@ -1,0 +1,8 @@
+.recommendation-section {
+  padding-block: var(--space-xl);
+  align-items: start;
+
+  & + & {
+    border-block-start: 0.1em solid hsl(from var(--section-background-color) h s calc(l - 10));
+  }
+}
