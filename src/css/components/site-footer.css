@@ -1,4 +1,6 @@
 .site-footer {
+  container-name: site-footer;
+  container-type: inline-size;
   background-color: var(--white);
   border-block-start: 1px solid var(--light-gray);
   padding: var(--space-m);

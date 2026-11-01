@@ -1,4 +1,5 @@
 .grid {	
+	container-name: grid;
 	container-type: inline-size;
 	display: grid;
 	gap: var(--gap, var(--space-m));

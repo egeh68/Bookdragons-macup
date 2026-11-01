@@ -3,6 +3,7 @@
   --popout-extra-width: calc(var(--content-max-width) / 6);
   --padding: var(--space-m);
 
+  container-name: breakout-grid;
   container-type: inline-size;
   display: grid;
   grid-template-columns:

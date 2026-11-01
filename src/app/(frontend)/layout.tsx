@@ -35,8 +35,8 @@ const momoSignature = Momo_Signature({
 })
 
 export const metadata = {
-  description: "Et starterprosjekt for Payload CMS, bygget med Docker",
-  title: "Payload CMS",
+  description: "Dette er ikke en faktisk bokhandel, men en oppgave som skal løses i frontendutvikling-studiet ved Gokstad Akademiet.",
+  title: "BookDragons",
 };
 
 export default async function RootLayout(props: { children: React.ReactNode }) {
