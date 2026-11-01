@@ -40,4 +40,8 @@
 .reel > .book-card {
   flex-basis: 30ch;
   scroll-snap-align: start;
+
+  @container reel (width < 50rem) {
+    flex-basis: 100%;
+  }
 }

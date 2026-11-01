@@ -1,4 +1,6 @@
 .site-header {
+  container-name: site-header;
+  container-type: inline-size;
   background-color: var(--white);
   border-block-end: 1px solid var(--light-gray);
   display: flex;

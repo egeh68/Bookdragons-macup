@@ -1,4 +1,6 @@
 .reel {
+	container-name: reel;
+	container-type: inline-size;
 	display: flex;
 	overflow-x: auto;
 	overflow-y: hidden;
