@@ -1,14 +1,19 @@
+import Footer from "@/components/footer/footer"
+import Header from "@/components/header/header"
+import Section from "@/components/section/section"
+
 export default async function IndexPage() {
   return (
     <>
-      <header className="site-header">
+      {/* <header className="site-header">
         <a href="#" className="logo">BookDragons</a>
         <nav>
           <a href="#">Om oss</a>
           <a href="#">Salg!</a>
           <a href="#">Logg inn</a>
         </nav>
-      </header>
+      </header> */}
+      <Header/>
 
       <main>
         <section className="section section-yellow">
@@ -27,6 +32,9 @@ export default async function IndexPage() {
             </div>
           </div>
         </section>
+        {/* <Section>
+          {children}
+        </Section> */}
 
         <section className="m-b-xl stack stack-large">
           <h2 className="section-heading">Nyheter i butikken</h2>
@@ -481,10 +489,11 @@ export default async function IndexPage() {
         </section>
       </main>
 
-      <footer className="site-footer">
+      {/* <footer className="site-footer">
         <p>&copy; BookDragons, 2026.</p>
         <p>Dette prosjektet er et eksempelprosjekt for frontendutvikling ved Gokstad Akademiet. Dette er ikke en ekte nettbutikk eller bokhandel. Beklager dette.</p>
-      </footer>
+      </footer> */}
+      <Footer />
     </>
   )
 }
