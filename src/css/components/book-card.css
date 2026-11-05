@@ -8,7 +8,7 @@
   .book-card-title a:not(:hover) {
     text-decoration: none;
   }
-  
+
   .book-card-cover {
     margin-inline: auto;
     block-size: 16rem;
